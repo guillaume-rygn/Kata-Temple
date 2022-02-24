@@ -1,0 +1,164 @@
+*{
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+}
+
+body{
+  font-family: 'Poppins', sans-serif;
+  background-color: #474290;
+  min-height: 1500px;
+}
+
+section{
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+section:before{
+  content: '';
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 300px;
+  background: linear-gradient(to top, #474290, transparent);
+  z-index:10;
+}
+/*
+section:after{
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: #DF9192;
+  z-index:4;
+  mix-blend-mode: color;
+}*/
+
+section img{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit:cover;
+  pointer-events: none;
+}
+
+#bg {
+  z-index: 0;
+}
+
+#moutain{
+  z-index: 1;
+}
+
+#text{
+  font-size: 9em;
+  position: relative;
+  transform: translateY(-50%);
+  color: #A2444A;
+  z-index: 3;
+}
+
+@media screen and (max-width: 640px) {
+  #text{
+    font-size: 5em;
+   }
+}
+
+#fond2{
+  z-index: 2;
+}
+
+#fond3, #fond4, #cone, #fond6, #fond7, #fond8{
+  z-index: 4;
+}
+
+#nuage1, #nuage2{
+  z-index: 5;
+}
+
+#temple, #arbre{
+  z-index: 6;
+}
+
+
+/* MAIN SECTION */
+
+a{
+  color :#c25960;
+}
+
+.spoiler {
+	filter: blur(20px);
+	transition-property: -webkit-filter;
+	transition-duration: .4s;
+}
+.spoiler:hover, .spoiler:focus {
+	filter: blur(0px);
+}
+
+#main_text{
+  color : #FFF;
+  box-shadow: #FFF;
+  margin-top: 100px;
+  font-size: 2.5rem;
+  text-align: center;
+}
+
+aside{
+  margin: 25px 25px 40px 25px;
+  font-size: 1em;
+  text-align: center;
+  color: #FFF;
+
+}
+
+.accordion-body hr  {
+  width:20%; 
+  border:2px solid #ff0011; 
+  margin-top:0px;
+}
+
+.week_title{
+  font-size: 2rem;
+  background: #C25960;
+background: -webkit-linear-gradient(to right, #C25960 0%, #FF757E 100%);
+background: -moz-linear-gradient(to right, #C25960 0%, #FF757E 100%);
+background: linear-gradient(to right, #C25960 0%, #FF757E 100%);
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+
+
+}
+
+/* FOOTER */
+
+.footer{
+  margin: 25px 50px 50px 50px;
+  text-align: center;
+  color: #FFF;
+}
+
+.footer p {
+  font-size: 10px;
+}
+
+.footer hr {
+  width: 50%;
+  margin: 10px auto;
+}
+
+.footer a{
+  font-size: 10px;
+  text-decoration: underline;
+  color: #FFF;
+}

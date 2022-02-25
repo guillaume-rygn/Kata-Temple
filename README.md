@@ -1,4 +1,11 @@
-# Kata Temple 🥷
+
+<h1 align="center">
+  <br>
+  <a href="https://katatemple.herokuapp.com/"><img src="https://images.emojiterra.com/google/android-11/512px/1f977.png" alt="Kata Temple" width="200"></a>
+  <br>
+  Kata Temple
+  <br>
+</h1>
 
 ![Kata Temple](/katatemple.gif)
 

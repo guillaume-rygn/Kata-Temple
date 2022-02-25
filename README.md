@@ -1,6 +1,6 @@
 # Kata Temple 🥷
 
-![Kata Temple](https://i.imgur.com/a2aYPyx.gif)
+![Kata Temple](/katatemple.gif)
 
 ## WEB version 🌐
 

@@ -3,8 +3,7 @@
   <br>
   <a href="https://katatemple.herokuapp.com/"><img src="https://images.emojiterra.com/google/android-11/512px/1f977.png" alt="Kata Temple" width="200"></a>
   <br>
-  Kata Temple
-  <br>
+KATA TEMPLE  <br>
 </h1>
 <h4 align="center">30 days challenge to improve yourself in technical test with the Kata Temple challenge and take up the temple sensei's kata from level 8kyu to 4kyu - Ruby Edition</h4>
 <br>

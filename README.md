@@ -6,6 +6,8 @@
   Kata Temple
   <br>
 </h1>
+<h4 align="center">30 days challenge to improve yourself in technical test with the Kata Temple challenge and take up the temple sensei's kata from level 8kyu to 4kyu - Ruby Edition</h4>
+<br>
 
 ![Kata Temple](/katatemple.gif)
 

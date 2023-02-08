@@ -12,7 +12,7 @@ KATA TEMPLE  <br>
 
 ## WEB version 🌐
 
-Le site est en live ici 👉 [Kata Temple](https://katatemple.herokuapp.com/)
+Le site est en live ici 👉 [Kata Temple](https://guillaume-rygn.github.io/Kata-Temple/)
 
 ## Technologies utilisées ⚙️
 
